@@ -8,6 +8,7 @@ import config from "../config.json" assert { type: "json" };
 export const client = new Client({
   intents: [
     IntentsBitField.Flags.GuildIntegrations,
+    ]
 });
 const CommandHandler = new CMDHandler();
 
